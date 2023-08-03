@@ -1,0 +1,58 @@
+/* Default styles for the card container */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    max-width: 80%;
+  }
+  .row{
+    margin: auto;
+    padding-top: 40px;
+  }
+  /* Styles for each card inside the card container */
+  .card {
+    margin: auto;
+    width: 250px;
+  }
+  .image{
+    pointer-events: none;
+  }
+  .title{
+    border-bottom: 4px double;
+    font-size: xx-large;
+  
+    
+  }
+  .icons{
+    display: flex;
+    justify-content: space-around;
+  }
+  p{
+    max-width: 80%;
+    margin: auto;
+  }
+  h3{
+    font-weight: bold;
+  }
+  /* Media query for tablet screens */
+  @media (max-width: 768px) {
+    .card {
+      max-width: 50%; /* One card in each row for tablets */
+      /* margin-left: 20px; */
+    }
+    p{
+      max-width: 80%;
+    }
+  }
+  
+  /* Media query for mobile screens */
+  @media (max-width: 576px) {
+    .card {
+      width: 70%; /* One card in each row for mobile */
+    }
+    p{
+      max-width: 90%;
+    }
+  }
+  

@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 60vmin;
   pointer-events: none;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #3d5d98;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,9 +30,9 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform:skewX(10deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: skewX(-10deg);
   }
 }
