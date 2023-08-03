@@ -9,12 +9,12 @@ import About from '../components/About';
 import   Logo from './ecohome.png';
 
 import {
-  BrowserRouter,
+  
   Routes,
   Route,
   Link
 } from 'react-router-dom';
-import about from './About';
+
 
 export default class navbarComp extends Component {
   render() {

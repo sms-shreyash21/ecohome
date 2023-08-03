@@ -1,6 +1,6 @@
 import React from 'react';
 // import { ReactDOM } from 'react-dom';
-import sms from './images/sms.jpeg'
+
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
@@ -8,7 +8,7 @@ import './About.css'
 import Shreyash from './images/Shreyash.jpeg'
 import Yash from './images/Yash.jpg'
 import linkedin from './images/linkedin.png'
-import github from './images/github.png'
+
 import { Link } from "react-router-dom";
 import rushi from './images/rushi.jpg'
 import akanksha from './images/akanksha.jpg'
