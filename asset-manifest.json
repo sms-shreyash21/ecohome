@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.f95e26e1.css",
-    "main.js": "/static/js/main.30084e89.js",
-    "static/js/787.fbdc5633.chunk.js": "/static/js/787.fbdc5633.chunk.js",
-    "static/media/home.png": "/static/media/home.bd1adb8fc68d37bd14ee.png",
-    "static/media/img3.png": "/static/media/img3.e24b0578b7ce820162c1.png",
-    "static/media/img2.png": "/static/media/img2.d38ebb0362f2ef692e00.png",
-    "static/media/Shreyash.jpeg": "/static/media/Shreyash.925da12017f81f95bdf4.jpeg",
-    "static/media/akanksha.jpg": "/static/media/akanksha.dd6f187214fdc0e87601.jpg",
-    "static/media/Yash.jpg": "/static/media/Yash.ae65c97f22d2c6cde704.jpg",
-    "static/media/rushi.jpg": "/static/media/rushi.beb2be8f877ccc99628c.jpg",
-    "static/media/img1.jpg": "/static/media/img1.dd69a4ec133129f084c5.jpg",
-    "static/media/img4.jpg": "/static/media/img4.fc25cce31fcc3d234b26.jpg",
-    "static/media/ecohome.png": "/static/media/ecohome.03283f12493f72d6c36c.png",
-    "index.html": "/index.html",
-    "main.f95e26e1.css.map": "/static/css/main.f95e26e1.css.map",
-    "main.30084e89.js.map": "/static/js/main.30084e89.js.map",
-    "787.fbdc5633.chunk.js.map": "/static/js/787.fbdc5633.chunk.js.map"
+    "main.css": "/ecohome/static/css/main.f95e26e1.css",
+    "main.js": "/ecohome/static/js/main.f61d9e45.js",
+    "static/js/787.fbdc5633.chunk.js": "/ecohome/static/js/787.fbdc5633.chunk.js",
+    "static/media/home.png": "/ecohome/static/media/home.bd1adb8fc68d37bd14ee.png",
+    "static/media/img3.png": "/ecohome/static/media/img3.e24b0578b7ce820162c1.png",
+    "static/media/img2.png": "/ecohome/static/media/img2.d38ebb0362f2ef692e00.png",
+    "static/media/Shreyash.jpeg": "/ecohome/static/media/Shreyash.925da12017f81f95bdf4.jpeg",
+    "static/media/akanksha.jpg": "/ecohome/static/media/akanksha.dd6f187214fdc0e87601.jpg",
+    "static/media/Yash.jpg": "/ecohome/static/media/Yash.ae65c97f22d2c6cde704.jpg",
+    "static/media/rushi.jpg": "/ecohome/static/media/rushi.beb2be8f877ccc99628c.jpg",
+    "static/media/img1.jpg": "/ecohome/static/media/img1.dd69a4ec133129f084c5.jpg",
+    "static/media/img4.jpg": "/ecohome/static/media/img4.fc25cce31fcc3d234b26.jpg",
+    "static/media/ecohome.png": "/ecohome/static/media/ecohome.03283f12493f72d6c36c.png",
+    "index.html": "/ecohome/index.html",
+    "main.f95e26e1.css.map": "/ecohome/static/css/main.f95e26e1.css.map",
+    "main.f61d9e45.js.map": "/ecohome/static/js/main.f61d9e45.js.map",
+    "787.fbdc5633.chunk.js.map": "/ecohome/static/js/787.fbdc5633.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f95e26e1.css",
-    "static/js/main.30084e89.js"
+    "static/js/main.f61d9e45.js"
   ]
 }
