@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecohome/static/css/main.f95e26e1.css",
-    "main.js": "/ecohome/static/js/main.fa172e97.js",
+    "main.css": "/ecohome/static/css/main.a02fa59a.css",
+    "main.js": "/ecohome/static/js/main.ee7dab87.js",
     "static/js/787.fbdc5633.chunk.js": "/ecohome/static/js/787.fbdc5633.chunk.js",
     "static/media/home.png": "/ecohome/static/media/home.bd1adb8fc68d37bd14ee.png",
     "static/media/img3.png": "/ecohome/static/media/img3.e24b0578b7ce820162c1.png",
@@ -14,12 +14,12 @@
     "static/media/img4.jpg": "/ecohome/static/media/img4.fc25cce31fcc3d234b26.jpg",
     "static/media/ecohome.png": "/ecohome/static/media/ecohome.03283f12493f72d6c36c.png",
     "index.html": "/ecohome/index.html",
-    "main.f95e26e1.css.map": "/ecohome/static/css/main.f95e26e1.css.map",
-    "main.fa172e97.js.map": "/ecohome/static/js/main.fa172e97.js.map",
+    "main.a02fa59a.css.map": "/ecohome/static/css/main.a02fa59a.css.map",
+    "main.ee7dab87.js.map": "/ecohome/static/js/main.ee7dab87.js.map",
     "787.fbdc5633.chunk.js.map": "/ecohome/static/js/787.fbdc5633.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f95e26e1.css",
-    "static/js/main.fa172e97.js"
+    "static/css/main.a02fa59a.css",
+    "static/js/main.ee7dab87.js"
   ]
 }
