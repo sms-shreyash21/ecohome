@@ -27,7 +27,13 @@ const SolarForm = () => {
         // console.log(response.data) //[0].state
         // console.log(lat,lon)
         // console.log(state)
-        axios.get(`https://re.jrc.ec.europa.eu/api/MRcalc?lat=${lat}&lon=${lon}&horirrad=1&optrad=1&mr_dni=1&outputformat=json`)
+        const proxyUrl = 'https://corsproxy.io/?';
+        const apiUrl = `https://re.jrc.ec.europa.eu/api/MRcalc?lat=${lat}&lon=${lon}&horirrad=1&optrad=1&mr_dni=1&outputformat=json`;
+        // var corsOptions = {
+        //   origin: 'https://re.jrc.ec.europa.eu',
+        //   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+        // }
+        axios.get(proxyUrl+apiUrl)
           .then((response) => {
             
              let dni=0;          
@@ -195,7 +201,7 @@ const SolarForm = () => {
           <input type="text" id="name" value={name} onChange={(event) => setName(event.target.value)} required />
         </div>    
         <div className='input-form'>
-          <label htmlFor="location">Address</label> <br/>
+          <label htmlFor="location">District / Nearest Big City</label> <br/>
           <input type="text" id="location" value={location} onChange={(event) => setLocation(event.target.value)} required />
         </div>
         <div className='input-form'>

@@ -7,7 +7,7 @@ class Footer extends Component {
             <div className='row'>
                 <p>
                     <hr />
-                    &copy;&copy;{new Date().getFullYear()} Eco Home | All rights reserved 
+                    &copy;{new Date().getFullYear()} Eco Home | All rights reserved 
                     {/* |
                     Terms Of Service | Privacy */}
                 </p>

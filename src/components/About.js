@@ -18,7 +18,7 @@ const About = () => {
           title: 'Shreyash Shinde',
           imageUrl: Shreyash,
           description: 'This is card 1 description.',
-          inurl:'https://www.linkedin.com/in/shreyashmshinde',
+          inurl:'https://www.linkedin.com/in/shreyashshinde',
         },
         {
           title: 'Yash Kapse',
@@ -58,7 +58,7 @@ Join us on this exciting journey towards sustainable living. With Eco Home, take
 
     </p>
     <p>
-    <a style={{fontFamily:'fantasy'}} href="/getstarted"><h3> Start  Exploring Now !</h3></a>
+    <a style={{fontFamily:'fantasy'}} href="/ecohome/#/getstarted"><h3> Start  Exploring Now !</h3></a>
     
     
 
@@ -80,7 +80,7 @@ Begin by entering your property details, and let Eco Home calculate the estimate
             {/* <Card.Text>{card.description}</Card.Text> */}
             <div className='icons'>
             <Link to={card.inurl}>
-            <Card.Img variant="top" href={card.inurl} style={{width:20}} src={linkedin} />
+            <Card.Img variant="top" href={card.inurl} target="_blank" style={{width:20}} src={linkedin} />
             </Link>
             {/* <Card.Img variant="top" style={{width:20}} src={github} /> */}
             </div>

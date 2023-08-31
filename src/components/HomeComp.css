@@ -67,7 +67,7 @@ margin-top: 60px;
 
 .image1{
  width: 600px;
- 
+ pointer-events: none;
  
 }
 
