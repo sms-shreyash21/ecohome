@@ -20,20 +20,20 @@ const SolarForm = () => {
   
   const handleSubmit = (event) => {
     event.preventDefault();
-    axios.get(`http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=931a796735343ed4908c046b6bcf0efd`)
+    axios.get(`https://us-central1-eco-home-proxy.cloudfunctions.net/api/weather?q=${location}`)
       .then((response) => {
         const { lat, lon } = response.data[0];
         state = response.data[0].state;
         // console.log(response.data) //[0].state
         // console.log(lat,lon)
         // console.log(state)
-        const proxyUrl = 'https://corsproxy.io/?';
-        const apiUrl = `https://re.jrc.ec.europa.eu/api/MRcalc?lat=${lat}&lon=${lon}&horirrad=1&optrad=1&mr_dni=1&outputformat=json`;
+        const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+        const apiUrl = `https://us-central1-eco-home-proxy.cloudfunctions.net/api/solar?lat=${lat}&lon=${lon}`;
         // var corsOptions = {
         //   origin: 'https://re.jrc.ec.europa.eu',
         //   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
         // }
-        axios.get(proxyUrl+apiUrl)
+        axios.get(apiUrl)
           .then((response) => {
             
              let dni=0;          
@@ -83,14 +83,14 @@ const SolarForm = () => {
             let water = 0
             let tot_rain = 0
             axios.get(`https://archive-api.open-meteo.com/v1/archive?latitude=${lat}&longitude=${lon}&start_date=2022-06-01&end_date=2023-05-31&daily=precipitation_sum,rain_sum,snowfall_sum&timezone=auto`).then((response) => {
-              console.log(response.data)
+              // console.log(response.data)
               
               for (let i = 0; i < response.data.daily.rain_sum.length; i++) {
                 tot_rain += response.data.daily.rain_sum[i];
                 
               }
               water = roofArea*tot_rain;
-              console.log(water);
+              // console.log(water);
             
             setReportData({
               roofArea:roofArea,
