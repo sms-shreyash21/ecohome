@@ -66,29 +66,10 @@ Begin by entering your property details, and let Eco Home calculate the estimate
 
     <div style={{marginTop:60}}></div>
   
-    </p>
+    </p >
     <span className='title'>Our Team</span> 
     <br/>
-    <Row xs={1} md={2} className="g-4 row">
-    {cardsData.map((card, idx) => (
-      <Col key={idx}>
-        <Card className='card'>
-          <Card.Img variant="top" className='image' src={card.imageUrl} />
-          
-          <Card.Body >
-            <Card.Title>{card.title}</Card.Title>
-            {/* <Card.Text>{card.description}</Card.Text> */}
-            <div className='icons'>
-            <Link to={card.inurl}>
-            <Card.Img variant="top" href={card.inurl} target="_blank" style={{width:20}} src={linkedin} />
-            </Link>
-            {/* <Card.Img variant="top" style={{width:20}} src={github} /> */}
-            </div>
-          </Card.Body>
-        </Card>
-      </Col>
-    ))}
-  </Row>
+  
   
   </>
   );
